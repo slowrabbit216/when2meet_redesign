@@ -25,15 +25,6 @@ body {
 
 }
 
-@media only screen and (max-width: 500px) {
-  .calendars-container {
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    height: 100%
-  }
-}
-
 .menu {
   color: white;
   background-color: green;
@@ -131,7 +122,13 @@ h2 {
   color: green;
 }
 
-@media only screen and (max-width: 500px) {
+@media screen and (max-width: 400px) {
+  .calendars-container {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%
+  }
   .modal-content{
     width: 80%;
   }

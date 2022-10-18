@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>When2meet Redesign</title>
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="styles.css" /> 
+  </head>
+
+  <body>
+    <div class="home-page">
+      <div class = "title">Event Name</div> 
+      <div class="calendars-container">
+        <img  class="calendars" src="./assets/calendar_1.png" alt="Calendar marking availability of John's schedule">
+        <img class="calendars" src="./assets/calendar_2.png" alt="Calendar marking availability of entire group">
+      </div>
+
+      <div class="menu">
+        <div class="menu-item">About When2meet</div>
+        <div class="menu-item">Plan a New Event</div>
+      </div>
+
+      <div class="help-button-container">
+        <img class="help-button" src="./assets/help.png" alt="Calendar marking availability of John's schedule">
+      </div>
+
+      <!-- <div id = "showbutton" class="showbutton">Sign In Form</div> -->
+
+    </div>
+
+    <div id = "modal"class="bg-modal">
+      <div class="modal-content">
+        <form action="">
+          <h1>Event Name</h1>
+          <input type="text" placeholder = "Name">
+          <input type="password" placeholder = "Password(Optional)">
+          <h2>Instructions</h2>
+          <div class="instructions">
+            New to this event?
+            <br>1.Enter your name
+            <br>This name will only be used for this event. Other participants will be able to see your name and the coresponding times you have entered.
+            <br>2.Enter a Password (Optional)
+            <br>This password will only be used for this event. If you do not wish to set a password to modify your schedule please leave the field blank.
+            <br>
+            <br>Returning to this event?
+            <br>Enter the same name and password you used to sign up.
+            <br>
+          </div>
+          <div id = "submitbutton"class = "submitbutton">Sign In</div>
+        </form>
+      </div>
+    </div>
+  </body>
+
+</html>

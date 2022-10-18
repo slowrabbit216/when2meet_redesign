@@ -143,4 +143,7 @@ h2 {
   .modal-content{
     width: 80%;
   }
+  .menu{
+    position: relative;
+  }
 }
